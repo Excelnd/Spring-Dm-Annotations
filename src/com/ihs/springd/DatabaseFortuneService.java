@@ -1,5 +1,8 @@
 package com.ihs.springd;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class DatabaseFortuneService implements FortuneService {
 
 	@Override
