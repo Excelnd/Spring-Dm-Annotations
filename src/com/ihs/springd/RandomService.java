@@ -23,7 +23,9 @@ public class RandomService implements FortuneService {
 		// pick a random string from the array
 		int index = myRandom.nextInt(data.length);
 		
-		return null;
+		String theFortune = data[index];
+		
+		return theFortune;
 	}
 
 } 
